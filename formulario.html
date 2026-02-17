@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Ejemplo de formularios</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <p>Los formularios en HTML se utilizan para recopilar información del usuario. El elemento principal para crear un formulario es &lt;form&gt;, y dentro de él se utilizan otros elementos para definir los campos del formulario:</p>
+
+    <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder = "Introduce tu nombre" required><br><br>
+      <!-- el  label y el name deben ser iguales para que el formulario funcione correctamente, el placeholder es un texto que aparece dentro del campo de entrada para indicar al usuario qué tipo de información se espera que ingrese, el required es un atributo que indica que el campo es obligatorio y debe ser completado antes de enviar el formulario. -->2
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" min="0" max="120" required><br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
