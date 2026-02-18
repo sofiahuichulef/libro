@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="contenedores.css">
+    
 </head>
 <body>
 
     <header id="header-principal" class="texto-centrado">
-        <h1>Encabezado de la página</h1>
+        <h1 class="destacado">Encabezado de la página</h1>
         <nav>
             <ul>
                 <li><a href="#div">Div</a></li>
@@ -16,24 +18,37 @@
                 <li><a href="#article">Article</a></li>
                 <li><a href="#aside">Aside</a></li>
             </ul>
+        </nav>
     </header>
     <main>
     <div>
-        <h1>Contenedores en HTML</h1>
-        <p>Los contenedores en HTML son elementos que se utilizan para agrupar otros elementos y organizar el contenido de una página web. Algunos de los contenedores más comunes son:</p>
-        
+    
+        <section>
+            <h2>Contenedores en HTML</h2>
+            <p>Los contenedores en HTML son elementos que se utilizan para agrupar otros elementos y organizar el contenido de una página web. Algunos de los contenedores más comunes son:</p>
+        </section>
+
+        <section>
         <h2>1. &lt;div&gt;</h2>
         <p>El elemento &lt;div&gt; es un contenedor genérico que se utiliza para agrupar otros elementos sin agregar ningún significado semántico. Es útil para aplicar estilos CSS o para organizar el contenido en bloques.</p>
+        </section>
         
+        <section>
         <h2>2. &lt;section&gt;</h2>
         <p>El elemento &lt;section&gt; se utiliza para agrupar contenido relacionado dentro de una sección temática. Es útil para dividir una página en partes lógicas, como capítulos, artículos o secciones de un sitio web.</p>
+        </section>
         
+        <section>
         <h2>3. &lt;article&gt;</h2>
         <p>El elemento &lt;article&gt; se utiliza para representar un contenido independiente y autocontenible, como un artículo de blog, una noticia o una publicación. Es útil para marcar contenido que puede ser distribuido o reutilizado por separado.</p>
-        
+        </section>
+    
+
+        <section>
         <h2>4. &lt;aside&gt;</h2>
         <p>El elemento &lt;aside&gt; se utiliza para representar contenido que está relacionado con el contenido principal pero que no es esencial para su comprensión. Es útil para incluir información adicional, como barras laterales, anuncios o enlaces relacionados.</p>
-
+        </section>
+    
         <section>
             <h2>Ejemplo de uso de contenedores</h2>
             <article>
@@ -45,16 +60,17 @@
                 <p>Este es el contenido del segundo artículo.</p>
             </article>
         </section>
-
+    </div>
+    
         <aside>
             <h2>Información adicional</h2>
             <p>Este es un contenido adicional que está relacionado con los artículos anteriores.</p>
         </aside>
 
-    </div>
-    </main>
+     </main>
+    
 
-        <footer>
+        <footer id="fuente">
             <p>Pie de página de la página</p>   
         </footer>
 </body>
