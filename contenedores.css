@@ -83,3 +83,11 @@ footer{
     color: black;
     padding: 20px;
 }
+
+
+/* estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
